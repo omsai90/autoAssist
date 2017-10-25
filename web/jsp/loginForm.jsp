@@ -18,6 +18,7 @@
             <s:textfield name="password" label="Password" type="password"/>
             <s:submit label="Submit"/>
             <input type="button" value="Reset"/>
+            <a href="jsp/register.jsp">Register</a>
         </s:form>
     </body>
 </html>

@@ -13,6 +13,16 @@
         <title>Register Page</title>
     </head>
     <body>
-        <s:form ac
+        <s:form action="register" method="post">
+            <s:text name="Registration Form" />
+            <s:textfield name="name" label="Name"/>
+            <s:textfield name="dob" label="DOB"/>
+            <s:textfield name="mobile" label="Mobile No"/>
+            <s:textfield name="email" label="Email Id"/>
+            <s:textfield name="password" label="Password"/>
+            <s:textfield name="cPassword" label="Confirm Password"/>
+            <s:textfield name="captcha" label="Captcha"/>
+            <s:submit value="Submit"/>
+        </s:form>
     </body>
 </html>

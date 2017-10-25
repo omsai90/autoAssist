@@ -10,5 +10,9 @@
             <result name="success">success.jsp</result>
             <result name="error">error.jsp</result> 
         </action>
+        <action name="register" class="com.autoassist.action.Register">
+            <result name="success">success.jsp</result>
+            <result name="error">error.jsp</result>
+        </action>
     </package>
 </struts>
