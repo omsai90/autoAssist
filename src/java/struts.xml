@@ -6,9 +6,9 @@
     <include file="example.xml"/>
     <!-- Configuration for the default package. -->
     <package name="default" extends="struts-default">
-        <action name="loginAction" class="">
-            <result name="success">jsp/success.jsp</result>
-            <result name="error">jsp/error.jsp</result>
+        <action name="loginAction" class="com.autoassist.action.LoginAction">
+            <result name="success">success.jsp</result>
+            <result name="error">error.jsp</result> 
         </action>
     </package>
 </struts>
